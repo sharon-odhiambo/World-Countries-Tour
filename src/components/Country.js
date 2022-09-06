@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import {
-  Route, Routes, NavLink,
-} from 'react-router-dom';
-import CountryItem from './CountryItem';
+import { NavLink } from 'react-router-dom';
 import { fetchList, countryDetails } from '../redux/lists/Lists';
 
 const Country = () => {
@@ -21,26 +18,21 @@ const Country = () => {
   };
 
   return (
-    <>
-      <ul>
-        {countries.map((country) => (
-          <li key={country.name}>
-            {country.name}
-            <NavLink
-              key={country.links}
-              id={country.links}
-              onClick={onClickHandler}
-              to="/CountryItem"
-            >
-              See Details
-            </NavLink>
-          </li>
-        ))}
-      </ul>
-      <Routes>
-        <Route path="/CountryItem" element={<CountryItem />} />
-      </Routes>
-    </>
+    <ul>
+      {countries.map((country) => (
+        <li key={country.name}>
+          {country.name}
+          <NavLink
+            key={country.links}
+            id={country.links}
+            onClick={onClickHandler}
+            to="/CountryItem"
+          >
+            See Details
+          </NavLink>
+        </li>
+      ))}
+    </ul>
   );
 };
 

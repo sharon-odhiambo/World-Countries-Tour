@@ -1,13 +1,11 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Country from './Country';
+// import React from 'react';
+// import { Route, Routes } from 'react-router-dom';
+// import Country from './Country';
 
-const Nav = () => (
-  <BrowserRouter>
-    <Routes>
-      <Route path="*" element={<Country />} />
-    </Routes>
-  </BrowserRouter>
-);
+// const Nav = () => (
+//   <Routes>
+//     <Route path="/" element={<Country />} />
+//   </Routes>
+// );
 
-export default Nav;
+// export default Nav;
