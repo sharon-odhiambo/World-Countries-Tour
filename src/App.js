@@ -1,17 +1,11 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './app.css';
-import Country from './components/Country';
+// import Country from './components/Country';
+import Nav from './components/Nav';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Country />} />
-        </Routes>
-
-      </div>
-    </BrowserRouter>
+    <Nav />
   );
 }
 
