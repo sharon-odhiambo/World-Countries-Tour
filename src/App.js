@@ -1,11 +1,16 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Country from './components/Country';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <nav><h1>My React App</h1></nav>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Country />} />
+        </Routes>
+
+      </div>
+    </BrowserRouter>
   );
 }
 
