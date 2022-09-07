@@ -1,11 +1,20 @@
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './app.css';
-// import Country from './components/Country';
-import Nav from './components/Nav';
+import {
+  BrowserRouter, Route, Routes,
+} from 'react-router-dom';
+import CountryItem from './components/CountryItem';
+import Country from './components/Country';
+// import Nav from './components/Nav';
 
 function App() {
   return (
-    <Nav />
+    <BrowserRouter>
+      {/* <Nav /> */}
+      <Routes>
+        <Route path="/" element={<Country />} />
+        <Route path="/CountryItem" element={<CountryItem />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
