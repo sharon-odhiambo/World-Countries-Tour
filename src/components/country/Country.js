@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import './Country.css';
 import { FcRight } from 'react-icons/fc';
 import { ImSearch } from 'react-icons/im';
 import { fetchList } from '../../redux/lists/Lists';

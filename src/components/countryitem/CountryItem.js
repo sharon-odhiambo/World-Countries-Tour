@@ -2,7 +2,6 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { BsArrowLeftCircle } from 'react-icons/bs';
-import './CountryItem.css';
 
 const CountryItem = () => {
   const items = useSelector((state) => state.items);
