@@ -41,7 +41,7 @@ body {
   grid-template-rows: 1.5fr 1fr;
   border-radius: 8px 8px;
   background-color: #5bccf6;
-} 
+}
 
 .flag {
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ p {
   left: 30%;
   top: 40%;
   color: #5bccf6;
-  font-size: 20px;;
+  font-size: 20px;
 }
 
 .country-item {
@@ -105,7 +105,6 @@ p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-
 
 .countrydetails {
   display: flex;
@@ -136,7 +135,7 @@ p {
     gap: 20px 20px;
     padding: 60px;
     }
-}
+  }
 
 @media screen and (min-width: 768px) {
   .countrieslist {
@@ -144,7 +143,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px 20px;
     padding: 60px;
-    }
+  }
 
   .country-item {
     width: 100vw;
@@ -152,7 +151,7 @@ p {
     display: grid;
     gap: 4%;
     grid-template-columns: 1fr 1fr;
-    }
+  }
 }
 
 @media screen and (min-width: 1100px) {
@@ -161,15 +160,15 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px 20px;
     padding: 60px;
-}
+  }
 
   .item {
     height: 20rem;
-}
+  }
 
   .anchor {
     padding: 8px 13px;
-}
+  }
 
   form {
     width: 60%;
@@ -178,5 +177,5 @@ p {
     padding: 20px 20px;
     margin-bottom: 10px;
     margin-left: 7%;
+  }
 }
-};
