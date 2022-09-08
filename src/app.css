@@ -134,8 +134,8 @@ p {
     grid-template-columns: 1fr 1fr;
     gap: 20px 20px;
     padding: 60px;
-    }
   }
+}
 
 @media screen and (min-width: 768px) {
   .countrieslist {
