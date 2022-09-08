@@ -1,3 +1,42 @@
 body {
-  background-color: antiquewhite;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.countries-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0;
+  list-style: none;
+  border: 2px solid;
+}
+
+.countries-list li {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 255, 0.555);
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navlink {
+  text-decoration: none;
+  width: 100%;
+  color: #5bccf6;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 20px 10px;
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 40px;
 }

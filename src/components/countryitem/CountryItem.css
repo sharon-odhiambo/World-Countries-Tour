@@ -1,0 +1,47 @@
+.country-item {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    padding: 20px;
+    margin-top: 5%;
+  }
+
+.item-flag {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  
+  .countrydetails {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .countrydetails h1 {
+    display: flex;
+    align-self: center;
+    font-weight: 600;
+  }
+
+  .arrow {
+    width: 5%;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-left: 3%;
+    border-radius: 8px 8px;
+  }
+
+@media screen and (min-width: 668px) {
+  .country-item {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    gap: 4%;
+    grid-template-columns: 1fr 1fr;
+  }
+}

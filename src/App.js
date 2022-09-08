@@ -1,20 +1,21 @@
+import { NavLink, Route, Routes } from 'react-router-dom';
+import CountryItem from './components/countryitem/CountryItem';
+import Country from './components/country/Country';
 import './app.css';
-import {
-  BrowserRouter, Route, Routes,
-} from 'react-router-dom';
-import CountryItem from './components/CountryItem';
-import Country from './components/Country';
-// import Nav from './components/Nav';
 
 function App() {
   return (
-    <BrowserRouter>
-      {/* <Nav /> */}
+    <>
+      <nav>
+        <NavLink className="navlink" to="/">
+          All Countries
+        </NavLink>
+      </nav>
       <Routes>
         <Route path="/" element={<Country />} />
         <Route path="/CountryItem" element={<CountryItem />} />
       </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 
