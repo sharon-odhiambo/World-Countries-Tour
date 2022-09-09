@@ -5,6 +5,9 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <p>
+        Loading Countries
+      </p>
       <form>
         <input
           placeholder="Search by Country Name"
@@ -31,6 +34,9 @@ Object {
     </div>
   </body>,
   "container": <div>
+    <p>
+      Loading Countries
+    </p>
     <form>
       <input
         placeholder="Search by Country Name"

@@ -23,7 +23,7 @@ export const fetchList = createAsyncThunk(GET_COUNTRIES, async () => {
   return list;
 });
 
-const initialState = [];
+export const initialState = [];
 const listReducer = (state = initialState, action) => {
   switch (action.type) {
     case `${GET_COUNTRIES}/fulfilled`:

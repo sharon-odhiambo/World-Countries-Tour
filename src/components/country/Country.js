@@ -27,6 +27,7 @@ const Country = () => {
 
   return (
     <>
+      {!filteredCountries.length && <p>Loading Countries</p>}
       <form>
         <input type="text" placeholder="Search by Country Name" onChange={(e) => setQuery(e.target.value)} />
         <ImSearch />
