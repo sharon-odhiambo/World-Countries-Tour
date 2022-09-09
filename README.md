@@ -1,12 +1,46 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# World-Countries-Tour
 
-## Available Scripts
+> World-Countries-Tour is a mobile web application that:
+- displays a list of world countries and gives the user an option to check out each country. 
+- filter the list of countries on display using the search button.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- React
+- HTML and CSS
+- Javascript
+- Redux
+
+## Live Link
+
+[Live Page Link](https://my-world-tour.netlify.app/).
+
+## Presentation Demo
+[Here is a short presentation demo](https://drive.google.com/drive/folders/191smvn2x2lmTkKvw8oxPas_sFwJgC5Nq?usp=sharing)
+
+##  Page Images
+
+<img width="422" alt="Screenshot 2022-09-09 at 22 28 18" src="https://user-images.githubusercontent.com/88780311/189431492-a6366794-20f9-4f0e-975a-46830d5d03a9.png">
+
+<img width="1777" alt="Screenshot 2022-09-09 at 22 22 09" src="https://user-images.githubusercontent.com/88780311/189431610-b05119d6-211e-4174-80bd-ac9cff9767ca.png">
+
+
+## Getting Started
+
+## Prerequisites
+
+- React & Redux
+
+## Install
+```
+- git clone https://github.com/sharon-odhiambo/World-Countries-Tour.git
+- cd World-Countries-Tour
+- npm install
+```
+
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +48,37 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+`npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👤 **Sharon Odhiambo**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- GitHub: [@sharon-odhiambo](https://github.com/sharon-odhiambo)
+- Twitter: [@SharonVictor16](https://twitter.com/sharonvictor16)
+- LinkedIn: [Sharon Odhiambo](https://www.linkedin.com/in/sharonn-odhiambo/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🤝 Contributing
 
-### `npm run eject`
+Contributions, issues, and feature requests are welcome!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feel free to check the [issues page](../../issues/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Show your support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Give a ⭐️ if you like this project!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgments
+- Original [design](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>) idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+- The [Rest Countries API](https://restcountries.com/)
+- My Microverse Coding Partners
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
