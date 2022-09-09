@@ -20,6 +20,13 @@
 ## Presentation Demo
 [Here is a short presentation demo](https://drive.google.com/drive/folders/191smvn2x2lmTkKvw8oxPas_sFwJgC5Nq?usp=sharing)
 
+##  Page Images
+
+<img width="422" alt="Screenshot 2022-09-09 at 22 28 18" src="https://user-images.githubusercontent.com/88780311/189431492-a6366794-20f9-4f0e-975a-46830d5d03a9.png">
+
+<img width="1777" alt="Screenshot 2022-09-09 at 22 22 09" src="https://user-images.githubusercontent.com/88780311/189431610-b05119d6-211e-4174-80bd-ac9cff9767ca.png">
+
+
 ## Getting Started
 
 ## Prerequisites
@@ -28,11 +35,12 @@
 
 ## Install
 ```
-1. git clone https://github.com/sharon-odhiambo/World-Countries-Tour.git
-2. cd World-Countries-Tour
-3. npm install
+- git clone https://github.com/sharon-odhiambo/World-Countries-Tour.git
+- cd World-Countries-Tour
+- npm install
+```
 
-4. `npm start`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -40,7 +48,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-5. `npm test`
+`npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
