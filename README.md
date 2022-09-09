@@ -18,7 +18,7 @@
 [Live Page Link](https://my-world-tour.netlify.app/).
 
 ## Presentation Demo
-
+[Here is a short presentation demo](https://drive.google.com/drive/folders/191smvn2x2lmTkKvw8oxPas_sFwJgC5Nq?usp=sharing)
 
 ## Getting Started
 

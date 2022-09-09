@@ -9,23 +9,22 @@ const CountryItem = () => {
       <NavLink className="arrow" to="/"><BsArrowLeftCircle /></NavLink>
       <div className="country-item">
         <div
-          key={items.name}
           className="item-flag"
           style={{ backgroundImage: `url(${items.flag})` }}
         />
         <ul className="countrydetails">
           <h1>Country Details</h1>
-          <li key={items.name}>
+          <li>
             Country Name:
             {' '}
             {items.name}
           </li>
-          <li key={items.population}>
+          <li>
             Latest Population:
             {' '}
             {items.population}
           </li>
-          <li key={items.location} className="location">
+          <li className="location">
             Country Location:
             <span>
               {items.location[0]}
@@ -36,30 +35,15 @@ const CountryItem = () => {
               &#176; E
             </span>
           </li>
-          <li key={items.region}>
+          <li>
             Region:
             {' '}
             {items.region}
           </li>
-          <li key={items.subregion}>
+          <li>
             Subregion:
             {' '}
             {items.subregion}
-          </li>
-          <li key={items.border} className="borders">
-            Borders:
-            <span>
-              {items.border[0]}
-            </span>
-            <span>
-              {items.border[1]}
-            </span>
-            <span>
-              {items.border[2]}
-            </span>
-            <span>
-              {items.border[3]}
-            </span>
           </li>
         </ul>
       </div>
