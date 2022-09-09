@@ -1,11 +1,9 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { BsArrowLeftCircle } from 'react-icons/bs';
 
 const CountryItem = () => {
-  const items = useSelector((state) => state.items);
-
+  const items = JSON.parse(localStorage.getItem('country'));
   return (
     <>
       <NavLink className="arrow" to="/"><BsArrowLeftCircle /></NavLink>
@@ -27,10 +25,16 @@ const CountryItem = () => {
             {' '}
             {items.population}
           </li>
-          <li key={items.latlng}>
+          <li key={items.location} className="location">
             Country Location:
-            {' '}
-            {items.latlng}
+            <span>
+              {items.location[0]}
+              &#176; S
+            </span>
+            <span>
+              {items.location[1]}
+              &#176; E
+            </span>
           </li>
           <li key={items.region}>
             Region:
@@ -42,10 +46,20 @@ const CountryItem = () => {
             {' '}
             {items.subregion}
           </li>
-          <li key={items.timezones}>
-            Timezone:
-            {' '}
-            {items.timezones}
+          <li key={items.border} className="borders">
+            Borders:
+            <span>
+              {items.border[0]}
+            </span>
+            <span>
+              {items.border[1]}
+            </span>
+            <span>
+              {items.border[2]}
+            </span>
+            <span>
+              {items.border[3]}
+            </span>
           </li>
         </ul>
       </div>

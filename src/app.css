@@ -11,18 +11,38 @@ body {
   flex-direction: column;
 }
 
-.navlink {
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50%;
+  padding-right: 2%;
+}
+
+header {
   text-decoration: none;
   width: 100%;
   color: #5bccf6;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
   padding: 20px 10px;
-  display: grid;
-  justify-content: flex-start;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
-  gap: 40px;
+}
+
+.navlink {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.icons {
+  width: 7%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .countrieslist {
@@ -113,6 +133,21 @@ p {
   gap: 20px;
 }
 
+.countrieslist li {
+  padding: 10px;
+  width: 80%;
+}
+
+.location {
+  display: flex;
+  gap: 10px;
+}
+
+.borders {
+  display: flex;
+  gap: 10px;
+}
+
 .countrydetails h1 {
   display: flex;
   align-self: center;
@@ -134,6 +169,10 @@ p {
     grid-template-columns: 1fr 1fr;
     gap: 20px 20px;
     padding: 60px;
+  }
+
+  .icons {
+    width: 4%;
   }
 }
 
@@ -177,5 +216,9 @@ p {
     padding: 20px 20px;
     margin-bottom: 10px;
     margin-left: 7%;
+  }
+
+  .icons {
+    width: 3%;
   }
 }

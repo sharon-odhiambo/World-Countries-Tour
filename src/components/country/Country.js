@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import { FcRight } from 'react-icons/fc';
 import { ImSearch } from 'react-icons/im';
 import { fetchList } from '../../redux/lists/Lists';
-import { countryDetails } from '../../redux/items/items';
 
 const Country = () => {
   const countries = useSelector((state) => state.lists);
@@ -18,7 +17,9 @@ const Country = () => {
 
   const [query, setQuery] = useState('');
   const onClickHandler = (e) => {
-    dispatch(countryDetails(e.target.id));
+    localStorage.clear();
+    const country = countries.find((country) => country.id === e.target.id);
+    localStorage.setItem('country', JSON.stringify(country));
   };
 
   const filteredCountries = countries.filter((country) => (
@@ -26,7 +27,6 @@ const Country = () => {
 
   return (
     <>
-      {!filteredCountries.length && <p>Sorry, No countries match your search</p>}
       <form>
         <input type="text" placeholder="Search by Country Name" onChange={(e) => setQuery(e.target.value)} />
         <ImSearch />
